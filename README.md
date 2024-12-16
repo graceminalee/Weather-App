@@ -9,10 +9,15 @@ This project integrates third-party APIs for geolocation and weather data retrie
 
 **Table of Contents** 
 Installation 
+
 Instructions/usage
+
 Usage 
-Contributing 
+
+Contributing
+
 Credits
+
 License
 
 **Installation**
@@ -31,7 +36,9 @@ Grace Lee
 
 **Credits:**
 Node
+
 Express
+
 https://openweathermap.org
 
 **License** 
