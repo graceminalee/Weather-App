@@ -23,16 +23,16 @@ License
 
 **Installation**
 
-1. Clone the repo
+1 Clone the repo
 
-2. Go to https://openweathermap.org and get an API key
+2 Go to https://openweathermap.org and get an API key
     
-3. Run command:
+3 Run command:
 
     echo "OPENWEATHER_API_KEY=your_api_key_here
-   PORT=3001" > .env
+    PORT=3001" > .env
 
-5. Run command:
+4 Run command:
 
     node server.js
 
