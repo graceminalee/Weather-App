@@ -1,14 +1,20 @@
 import express from 'express';
 import fetch from 'node-fetch';
 import dotenv from 'dotenv';
+import cors from 'cors';
+
+
 
 dotenv.config();  // environment variables
 
 const app = express();
+app.use(cors());
 const port = process.env.PORT || 3000;
 
 app.use(express.static('public'));  
 app.use(express.urlencoded({ extended: false }));  // Parse url-encoded data
+
+
 
 // Helper func
 async function getUrl(url) {

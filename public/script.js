@@ -1,3 +1,4 @@
+// public/script.js
 document.getElementById('weather-form').addEventListener('submit', async (e) => {
     e.preventDefault();
     const city = document.getElementById('city').value;
