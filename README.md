@@ -9,17 +9,17 @@
 
 **Table of Contents** 
 
-    Installation 
+Installation 
 
-    Instructions/usage
+Instructions/usage
 
-    Usage 
-    
-    Contributing 
+Usage 
 
-    Credits 
+Contributing 
 
-    License
+Credits 
+
+License
 
 **Installation**
 
@@ -29,20 +29,20 @@
 
 **Instructions/usage**
 
-    First, you will be directed to the Weather Dashboard. From there, enter a valid city and state. Click the Get Weather button. Once clicked, the image, condition, temperature, and wind in MPH will be displayed of that city. 
+First, you will be directed to the Weather Dashboard. From there, enter a valid city and state. Click the Get Weather button. Once clicked, the image, condition, temperature, and wind in MPH will be displayed of that city. 
 
 
 **Contributing**
-    Grace Lee
+Grace Lee
 
 **Credits:**
 
-    Node
-    
-    Express
+Node
 
-    https://openweathermap.org
+Express
+
+https://openweathermap.org
 
 **License** 
 
-    Distributed under the MIT License. See LICENSE.txt for more information.
+Distributed under the MIT License. See LICENSE for more information.
