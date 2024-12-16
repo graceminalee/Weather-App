@@ -23,7 +23,7 @@ License
 
 **Installation**
 
-Go to https://openweathermap.org and get a API key
+Go to https://openweathermap.org and get an API key
     
 Run command:
 
