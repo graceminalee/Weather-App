@@ -23,6 +23,8 @@ License
 
 **Installation**
 
+Clone the repo
+
 Go to https://openweathermap.org and get an API key
     
 Run command:
