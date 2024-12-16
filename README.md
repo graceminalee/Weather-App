@@ -8,17 +8,11 @@ Homework 8: Weather Dashboard using API
 This project integrates third-party APIs for geolocation and weather data retrieval. This project configure and manage environment variables securely using dotenv. This project also builds a Node.js and Express server with route handling. Additionally, this project develops a dynamic frontend that changes themes and displays custom icons based on weather conditions. Finally, this project handles and displays error messages.
 
 **Table of Contents** 
-
 Installation 
-
 Instructions/usage
-
 Usage 
-
 Contributing 
-
-Credits 
-
+Credits
 License
 
 **Installation**
@@ -36,11 +30,8 @@ First, you will be directed to the Weather Dashboard. From there, enter a valid 
 Grace Lee
 
 **Credits:**
-
 Node
-
 Express
-
 https://openweathermap.org
 
 **License** 
