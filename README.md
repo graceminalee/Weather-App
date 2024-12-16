@@ -25,9 +25,11 @@ License
 Go to https://openweathermap.org and get a API key
     
 Run command:
+
     echo "OPENWEATHER_API_KEY=your_api_key_here" > .env
 
 Run command:
+
     node server.js
 
 **Instructions/usage**
