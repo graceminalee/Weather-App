@@ -20,7 +20,7 @@ document.getElementById('weather-form').addEventListener('submit', async (e) => 
         if (description.includes("clouds")) {
             weatherIcon.src = "/icons/clouds.webp";
             weatherIcon.alt = "Overcast";
-        } else if (description.includes("sun") || description.includes("clear")) {
+        } else if (description.includes("sun") ){//|| description.includes("clear")) {
             weatherIcon.src = "/icons/sunny.png";
             weatherIcon.alt = "Sunny";
         } else if (description.includes("rain") || description.includes("mist")) {

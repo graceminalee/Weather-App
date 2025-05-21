@@ -1,19 +1,27 @@
 {
+    "homepage": "https://graceminalee.github.io/Weather-App",
     "name": "weather-app",
     "version": "1.0.0",
     "description": "",
     "type": "module",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "build": "npm start",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "cors": "^2.8.5",
-      "dotenv": "^16.4.5",
-      "express": "^4.21.2",
-      "node-fetch": "^3.3.2"
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "ejs": "^3.1.10",
+        "express": "^4.21.2",
+        "node-fetch": "^3.3.2"
+    },
+    "devDependencies": {
+        "gh-pages": "^6.3.0"
     }
-  }
+}
