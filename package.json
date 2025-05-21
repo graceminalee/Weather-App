@@ -1,5 +1,5 @@
 {
-    "homepage": "https://graceminalee.github.io/Weather-App",
+    "homepage": "https://graceminalee.github.io/weather-app",
     "name": "weather-app",
     "version": "1.0.0",
     "description": "",
@@ -7,9 +7,10 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node server.js",
-        "build": "npm start",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d build",
+        "build": "npm start"
+
     },
     "keywords": [],
     "author": "",
